@@ -43,7 +43,7 @@ class Welcome extends CI_Controller {
 	}
 
 	public function layout($view_locator, $data = null, $is_report = false, $return = false)
-	{
+	 {
 			//get title and headline from data
 			$title = (isset($data['title']) ? $data['title'] : 'INSIGHT');
 			$headline = (isset($data['headline']) ? $data['headline'] : 'INSIGHT');
